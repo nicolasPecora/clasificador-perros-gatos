@@ -1,4 +1,3 @@
-```markdown
 # Clasificador de Perros y Gatos 
 Este proyecto es una aplicación web desarrollada con Flask que permite clasificar imágenes de perros y gatos utilizando un modelo de redes neuronales convolucionales (CNN) entrenado previamente.
 
@@ -23,20 +22,20 @@ clasificador-perros-gatos/
 ├── model/                   # Modelo entrenado (.h5)
 │   └── perros-gatos-cnn-ad.h5
 │
-├── static/                 # Archivos estáticos
+├── static/                  # Archivos estáticos
 │   ├── css/
 │   │   └── style.css
 │   ├── js/
 │   │   └── script.js
-│   └── uploads/            # Carpeta de imágenes temporales
+│   └── uploads/             # Carpeta de imágenes temporales
 │
-├── templates/              # Plantillas HTML
+├── templates/               # Plantillas HTML
 │   ├── index.html
 │   └── result.html
 │
-├── app.py                  # Aplicación principal Flask
-├── requirements.txt        # Requisitos del proyecto
-└── README.md               # Este archivo
+├── app.py                   # Aplicación principal Flask
+├── requirements.txt         # Requisitos del proyecto
+└── README.md                # Documentación del proyecto
 
 ````
 
@@ -181,5 +180,3 @@ Este proyecto está bajo la Licencia MIT. Puedes usarlo libremente citando al au
 
 ¡Gracias por visitar este proyecto!
 por [Nicolás Pécora](https://github.com/nicolasPecora)
-
-```
