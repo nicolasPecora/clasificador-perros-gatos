@@ -43,7 +43,7 @@ clasificador-perros-gatos/
 
 ## Requisitos
 
-Antes de ejecutar la app, asegúrate de tener Python 3.7+ instalado.
+Antes de ejecutar la app, asegúrate de tener Python 3.11+ instalado.
 
 Instala los paquetes necesarios con:
 
@@ -141,13 +141,13 @@ python app.py
 
 ### 5. Abrir en tu navegador
 
-Visita `http://127.0.0.1:5000/` y ¡empieza a clasificar tus imágenes!
+Visita `http://127.0.0.1:5000/` y empieza a clasificar tus imágenes.
 
 ---
 
 ## Limpieza automática
 
-Las imágenes cargadas se eliminan automáticamente del servidor después de realizar la predicción. No necesitas borrarlas manualmente.
+Las imágenes cargadas se eliminan automáticamente del servidor después de realizar la predicción. No se necesita borrarlas manualmente.
 
 ---
 
