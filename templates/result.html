@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultado de la Predicción</h1>
+        <p>La imagen cargada es: {{ prediction }}</p>
+
+        <!-- Mostrar la imagen cargada, asegurándose de que no se duplique -->
+        <img src="{{ url_for('static', filename='uploads/' + image_filename) }}" alt="Imagen Cargada" class="result-image">
+        
+        <br><br>
+        <!-- Botón para volver a la página principal -->
+        <a href="/" class="button">Volver a la página principal</a>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
